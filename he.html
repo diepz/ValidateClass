@@ -1,0 +1,12 @@
+<script type="text/javascript">
+	function ValidateClass(str) {
+		regex = /^[A-C]{1}[0-9]{4}[G-H-I-K-L-M]{1}$/;
+		if (regex.test(str)) {
+			console.log("ok");
+		} else {
+			console.log("not ok");
+		}
+	}
+ValidateClass("C0318G");
+ValidateClass("P0323A");
+</script>
